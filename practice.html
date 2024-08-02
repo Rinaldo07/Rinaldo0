@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Students marks </title>
+    <link rel="stylesheet" href="practice.css">
+</head>
+<body>
+
+    <p class="heading">Marks calculator</p>
+    <div id="overlay" class="overlay" onclick="closemarks()"></div>
+   
+    <div class="subjects">
+    <input id="english" type="text" placeholder="English" value="">
+    <input id="tamil" type="text" placeholder="Tamil" value="">
+    <input id="maths" type="text" placeholder="Maths" value="">
+    <input id="science" type="text" placeholder="Science" value="">
+    <input id="social" type="text" placeholder="Social" value="">
+    <button class="btn" id="calculate" onclick="calculate()">Calculate</button>
+    </div>
+
+    
+     <div id="studentsmarks" class="students-marks">
+    <h2 id="total" >Total</h2>
+    <h2 id="average">Avearge </h3>
+    <h2 id="result"> Result</h2>
+
+    </div>
+
+    <script defer src="practice .js"></script>
+    
+</body>
+</html>
